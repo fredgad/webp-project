@@ -1,0 +1,8 @@
+$bg: red;
+
+body {
+    background: $bg;
+    display: flex;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 1fr auto;
+}
