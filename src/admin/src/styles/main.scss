@@ -1,7 +1,9 @@
 $bg: red;
 
 body {
-    background: $bg;
+    border: 1px solid $bg;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: flex-start;
     grid-template-columns: 1fr 1fr auto;
